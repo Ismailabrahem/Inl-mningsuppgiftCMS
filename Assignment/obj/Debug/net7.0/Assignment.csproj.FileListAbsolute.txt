@@ -1,0 +1,17 @@
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.AssemblyInfoInputs.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.AssemblyInfo.cs
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\bin\Debug\net7.0\Assignment.exe
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\bin\Debug\net7.0\Assignment.deps.json
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\bin\Debug\net7.0\Assignment.runtimeconfig.json
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\bin\Debug\net7.0\Assignment.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\bin\Debug\net7.0\Assignment.pdb
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.csproj.AssemblyReference.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.csproj.CopyComplete
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\refint\Assignment.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.pdb
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\Assignment.genruntimeconfig.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignment\obj\Debug\net7.0\ref\Assignment.dll
