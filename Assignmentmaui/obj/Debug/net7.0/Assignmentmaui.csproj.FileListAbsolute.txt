@@ -1,0 +1,13 @@
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.csproj.AssemblyReference.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.AssemblyInfoInputs.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.AssemblyInfo.cs
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.csproj.CoreCompileInputs.cache
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\bin\Debug\net7.0\Assignmentmaui.deps.json
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\bin\Debug\net7.0\Assignmentmaui.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\bin\Debug\net7.0\Assignmentmaui.pdb
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\XamlC.stamp
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\refint\Assignmentmaui.dll
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\Assignmentmaui.pdb
+C:\Users\Ismail Abrahem\Desktop\CMSassignment\Assignmentmaui\obj\Debug\net7.0\ref\Assignmentmaui.dll

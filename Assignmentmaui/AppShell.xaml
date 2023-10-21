@@ -1,0 +1,30 @@
+<Shell
+    x:Class="Assignmentmaui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Assignmentmaui"
+    xmlns:viewmodels="clr-namespace:Assignmentmaui.Mvvm.ViewModels"
+    xmlns:views="clr-namespace:Assignmentmaui.Mvvm.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        BindingContext="{x:Type viewmodels:MainViewModel}"
+        ContentTemplate="{DataTemplate views:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        BindingContext="{x:Type viewmodels:CreateViewModel}"
+        ContentTemplate="{DataTemplate views:CreatePage}"
+        Route="CreatePage" />
+
+    <ShellContent
+        BindingContext="{x:Type viewmodels:EditViewModel}"
+        ContentTemplate="{DataTemplate views:EditPage}"
+        Route="EditPage" />
+
+    <ShellContent
+        BindingContext="{x:Type viewmodels:DetailsViewModel}"
+        ContentTemplate="{DataTemplate views:DetailsPage}"
+        Route="DetailsPage" />
+    
+</Shell>

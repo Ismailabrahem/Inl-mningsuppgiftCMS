@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Assignmentmaui.Mvvm.ViewModels"
+             x:DataType="{x:Type viewmodels:CreateViewModel}"
+             x:Class="Assignmentmaui.Mvvm.Views.CreatePage"
+             Title="Create a Customer">
+
+    <Grid RowDefinitions="auto,*" Padding="30" RowSpacing="20">
+        <Button Grid.Row="1" Command="{Binding ReturnCommand}" Text="Return" VerticalOptions="End" />
+        <ScrollView>
+        <VerticalStackLayout Grid.Row="1">
+            <Entry Text="{Binding Customer.FirstName}"  Placeholder="Firstname" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.LastName}" Placeholder="LastName" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.Email}" Placeholder="E-mail" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.PhoneNumber}" Placeholder="Phone number" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.StreetName}" Placeholder="Streetname" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.StreetNumber}" Placeholder="Streetnumber" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.ZipCode}" Placeholder="Zipcode" Margin="0,0,0,10" />
+            <Entry Text="{Binding Customer.City}" Placeholder="City" Margin="0,0,0,10" />
+
+            <Button Text="Create Customer" Command="{Binding SaveCommand}"  />
+
+        </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

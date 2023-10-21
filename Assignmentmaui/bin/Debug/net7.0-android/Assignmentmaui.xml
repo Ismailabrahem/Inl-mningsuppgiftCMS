@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assignmentmaui</name>
+    </assembly>
+    <members>
+        <member name="T:Assignmentmaui.Mvvm.ViewModels.CreateViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.Customer">
+            <inheritdoc cref="F:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.customer"/>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.saveCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.Save"/>.</summary>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.returnCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.ReturnCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.ReturnCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.CreateViewModel.Return"/>.</summary>
+        </member>
+        <member name="T:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.Customer">
+            <inheritdoc cref="F:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.customer"/>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.returnCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.ReturnCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.ReturnCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.Return"/>.</summary>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.goToEditCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.GoToEditCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.GoToEditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.GoToEdit"/>.</summary>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.DetailsViewModel.Delete"/>.</summary>
+        </member>
+        <member name="T:Assignmentmaui.Mvvm.ViewModels.EditViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.EditViewModel.Customer">
+            <inheritdoc cref="F:Assignmentmaui.Mvvm.ViewModels.EditViewModel.customer"/>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.EditViewModel.saveCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.EditViewModel.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.EditViewModel.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.EditViewModel.Save"/>.</summary>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.EditViewModel.returnCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.EditViewModel.ReturnCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.EditViewModel.ReturnCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.EditViewModel.Return"/>.</summary>
+        </member>
+        <member name="T:Assignmentmaui.Mvvm.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.Customers">
+            <inheritdoc cref="F:Assignmentmaui.Mvvm.ViewModels.MainViewModel.customers"/>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.MainViewModel.goToCreateCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.GoToCreateCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.GoToCreateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.MainViewModel.GoToCreate"/>.</summary>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.MainViewModel.goToDetailCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.GoToDetailCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.GoToDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.MainViewModel.GoToDetail(Assignmentmaui.Mvvm.Models.Customer)"/>.</summary>
+        </member>
+        <member name="F:Assignmentmaui.Mvvm.ViewModels.MainViewModel.updateCustomerListCommand">
+            <summary>The backing field for <see cref="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.UpdateCustomerListCommand"/>.</summary>
+        </member>
+        <member name="P:Assignmentmaui.Mvvm.ViewModels.MainViewModel.UpdateCustomerListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Assignmentmaui.Mvvm.ViewModels.MainViewModel.UpdateCustomerList"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Customer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Customer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Customers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Customers" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Customer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Customer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Customers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Customers" generated properties.</summary>
+        </member>
+    </members>
+</doc>

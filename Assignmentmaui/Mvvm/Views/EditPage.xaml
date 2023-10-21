@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignmentmaui.Mvvm.Views.EditPage"
+             xmlns:viewmodels="clr-namespace:Assignmentmaui.Mvvm.ViewModels"
+             xmlns:models="clr-namespace:Assignmentmaui.Mvvm.Models"
+             x:DataType="{x:Type viewmodels:EditViewModel}"
+             Title="Edit Customer">
+
+
+
+
+
+    <Grid RowDefinitions="*, auto" Padding="30">
+        <ScrollView>
+            <VerticalStackLayout Grid.Row="0">
+                <Label Text="Firstname" />
+                <Entry Text="{Binding Customer.FirstName}" Margin="0,0,0,20" />
+                <Label Text="Lastname" />
+                <Entry Text="{Binding Customer.LastName}" Margin="0,0,0,20" />
+                <Label Text="Email" />
+                <Entry Text="{Binding Customer.Email}" Margin="0,0,0,20" />
+                <Label Text="Phonenumber" />
+                <Entry Text="{Binding Customer.PhoneNumber}" Margin="0,0,0,20" />
+                <Label Text="Streetname" />
+                <Entry Text="{Binding Customer.StreetName}" Margin="0,0,0,20" />
+                <Label Text="Streetnumber" />
+                <Entry Text="{Binding Customer.StreetNumber}" Margin="0,0,0,20" />
+                <Label Text="Zip Code" />
+                <Entry Text="{Binding Customer.ZipCode}" Margin="0,0,0,20" />
+                <Label Text="City" />
+                <Entry Text="{Binding Customer.City}" Margin="0,0,0,20" />
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+                    <Button Text="Update Customer" Command="{Binding SaveCommand}" Margin="0,0,10,0"/>
+                    <Button Text="Return" Command="{Binding ReturnCommand}" Margin="0,0,10,0"/>
+                </StackLayout>
+
+            </VerticalStackLayout>
+
+
+        </ScrollView>
+
+
+    </Grid>
+</ContentPage>
